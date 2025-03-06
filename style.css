@@ -9,14 +9,14 @@ body{
 /* Configurar o cabeçalho */
 header{
     background-image: url('WhatsApp Image 2025-02-27 at 00.26.32.jpeg'); /* Caminho da imagem */
-    background-size: 1400px 500px; /* Faz a imagem cobrir toda a tela */
+    background-size: 1350px 500px; /* Faz a imagem cobrir toda a tela */
     background-position: center; /* Alinha a imagem ao centro da tela */
     background-repeat: no-repeat; /* Impede que a imagem se repita */
     color: white;
     padding: 0%;
     text-align: center;
-    width: 1358px;
-   height: 400px;
+    width: 1343px;
+    height: 400px;
 }
 
 /* Configurar foto de perfil */
@@ -39,11 +39,11 @@ header{
   }
   
   .menu li {
-    margin-right: 100px; /* Dá espaçamento entre os itens */
+    margin-right: 200px; /* Dá espaçamento entre os itens */
   }
   
   .menu li:last-child {
-    margin-right: 0; /* Remove o espaço após o último item */
+    margin-right: 25px; /* Remove o espaço após o último item */
   }
   
   /* Estilizando os links */
@@ -53,12 +53,14 @@ header{
     font-family: 'Times New Roman', Times, serif; /* Definindo a fonte */
     font-size: 25px; /* Tamanho da fonte */
     background-color: #222;
-    border: 2px solid#000000;
-    padding: 05px 100px; /* Espaçamento interno do link */
+    border: 2px solid transparent;
+    border-image: linear-gradient(to right, #c75102, #660310ec) 1;
+    box-shadow: 1px 1px 20px rgba(99, 4, 4, 0.808);
+    padding: 05px 50px; /* Espaçamento interno do link */
     transition: color 0.3s ease; /* Transição suave para a cor no hover */
     position: relative;
     top: 300px;
-    left: 150px;
+    left: 200px;
     
 
   }
@@ -72,3 +74,21 @@ header{
     background-color: #660310ec;
     color: rgb(255, 81, 0); /* Altera a cor para azul quando passar o mouse */
   }
+
+section
+{ 
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+color: #f4f4f4;  
+margin: 20px;
+padding: 20px;
+background: #222;
+border-radius: 10px;
+box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+section h1
+{
+ text-shadow: 1px 1px #000000; 
+ color: #c75102;
+ font-family: Georgia, 'Times New Roman', Times, serif; 
+}
