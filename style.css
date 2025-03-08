@@ -6,7 +6,7 @@ body{
     color: #333;
 }
 
-/* Configurar o cabeçalho */
+/* CABEÇALHO*/
 header{
     background-image: url('WhatsApp Image 2025-02-27 at 00.26.32.jpeg'); /* Caminho da imagem */
     background-size: 1350px 500px; /* Faz a imagem cobrir toda a tela */
@@ -20,16 +20,23 @@ header{
 }
 
 /* Configurar foto de perfil */
-.logo{
+.logo a{
    text-shadow: 2px 2px 4px #000000;
    font-family: Georgia, 'Times New Roman', Times, serif; 
    color: #c75102; 
-   
+   text-decoration: none;
+   transition: color 0.3s ease;
    font-size: 35px;
    position: relative;
    top: 25px;
    right: 550px;
+   
 }
+
+.logo a:hover{
+   color: #7c3201;
+}
+
 /*Configurar Barra de Pesquisa */
 .menu {
     list-style-type: none; /* Remove as bolinhas */
@@ -83,7 +90,7 @@ margin: 20px;
 padding: 20px;
 background: #222;
 border-radius: 10px;
-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+box-shadow: 0px 0px 10px #c75102(0, 0, 0, 0.5);
 }
 
 section h1
@@ -91,4 +98,212 @@ section h1
  text-shadow: 1px 1px #000000; 
  color: #c75102;
  font-family: Georgia, 'Times New Roman', Times, serif; 
+}
+
+
+/*BEBIDAS*/
+
+/* Categorias */
+.cardapio {
+  text-align: left;
+  padding: 30px;
+  background-color: white;
+  width: 80%;
+  margin: 50px auto; 
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Categorias */
+.categoria {
+  margin: 20px 0; 
+}
+
+.categoria h3 {
+  color: #ff6347;
+  border-bottom: 2px solid #ff6347;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+/* Itens do cardápio */
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background: #fff;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 100%; 
+  margin-bottom: 20px; 
+  text-align: left;
+}
+
+.item img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.item .info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+}
+
+.item .info h4 {
+  margin: 0;
+  color: #333;
+}
+
+.item .info p {
+  margin: 5px 0;
+  font-size: 14px;
+  color: #777;
+}
+
+.item .info span {
+  font-weight: bold;
+  color: #ff6347;
+}
+
+/*DOCES*/
+
+/* Categorias */
+.cardapio {
+  text-align: left;
+  padding: 30px;
+  background-color: white;
+  width: 80%;
+  margin: 50px auto; 
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Categorias */
+.categoria {
+  margin: 20px 0; 
+}
+
+.categoria h3 {
+  color: #ff6347;
+  border-bottom: 2px solid #ff6347;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+/* Itens do cardápio */
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background: #fff;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 100%; 
+  margin-bottom: 20px; 
+  text-align: left;
+}
+
+.item img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.item .info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+}
+
+.item .info h4 {
+  margin: 0;
+  color: #333;
+}
+
+.item .info p {
+  margin: 5px 0;
+  font-size: 14px;
+  color: #777;
+}
+
+.item .info span {
+  font-weight: bold;
+  color: #ff6347;
+}
+
+/*SALGADOS*/
+
+/* Categorias */
+.cardapio {
+  text-align: left;
+  padding: 30px;
+  background-color: white;
+  width: 80%;
+  margin: 50px auto; 
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Categorias */
+.categoria {
+  margin: 20px 0; 
+}
+
+.categoria h3 {
+  color: #ff6347;
+  border-bottom: 2px solid #ff6347;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+/* Itens do cardápio */
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background: #fff;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 100%; 
+  margin-bottom: 20px; 
+  text-align: left;
+}
+
+.item img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.item .info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+}
+
+.item .info h4 {
+  margin: 0;
+  color: #333;
+}
+
+.item .info p {
+  margin: 5px 0;
+  font-size: 14px;
+  color: #777;
+}
+
+.item .info span {
+  font-weight: bold;
+  color: #ff6347;
 }
