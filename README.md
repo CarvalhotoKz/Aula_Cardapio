@@ -8,7 +8,7 @@ Linguagens Utilizadas na Programação: HTML, CSS.
 
 METODOLOGIA:
 
-Foi feito um estudo de mercado abordando sobre o tema para levantar requisitos que o site deveria ter, assim como produtos e valores que vamos fornecer ao público. 
+Foi realizado um estudo de mercado abordando sobre o tema para levantar requisitos que o site deveria ter, assim como produtos e valores que vamos fornecer ao público. 
 
 ESTRUTURA DO SITE:
 

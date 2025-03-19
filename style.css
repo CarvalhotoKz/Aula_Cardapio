@@ -8,7 +8,7 @@ body{
 
 /* CABEÇALHO*/
 header{
-    background-image: url('WhatsApp Image 2025-02-27 at 00.26.32.jpeg'); /* Caminho da imagem */
+    background-image: url('imagem/WhatsApp Image 2025-02-27 at 00.26.32.jpeg'); /* Caminho da imagem */
     background-size: 1350px 500px; /* Faz a imagem cobrir toda a tela */
     background-position: center; /* Alinha a imagem ao centro da tela */
     background-repeat: no-repeat; /* Impede que a imagem se repita */
@@ -307,4 +307,59 @@ section h1
 .item .info span {
   font-weight: bold;
   color: #ff6347;
+}
+
+footer {
+  background-color: #222; /* Cor de fundo escura */
+  color: #fff; /* Cor do texto */
+  padding: 20px 0; /* Espaçamento interno */
+  font-family: Arial, sans-serif; /* Fonte do texto */
+}
+
+/* Container principal */
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0 20px;
+}
+
+/* Estilo para cada bloco de informações */
+.footer-info {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.footer-info p {
+  margin: 5px 0;
+}
+
+.footer-info strong {
+  font-weight: bold;
+  color: #f0f0f0; /* Cor das palavras em negrito */
+}
+
+/* Estilo do rodapé inferior */
+.footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+  color: #bbb;
+}
+
+.footer-bottom p {
+  margin: 0;
+}
+
+/* Responsividade para telas pequenas */
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-info {
+    margin-right: 0;
+    margin-bottom: 15px;
+  }
 }
