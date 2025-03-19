@@ -8,8 +8,8 @@ body{
 
 /* CABEÇALHO*/
 header{
-    background-image: url('imagem/WhatsApp Image 2025-02-27 at 00.26.32.jpeg'); /* Caminho da imagem */
-    background-size: 1350px 500px; /* Faz a imagem cobrir toda a tela */
+    background-image: url('imagem/Mr\ Oak\ repage.jpeg'); /* Caminho da imagem */
+    background-size: cover; /* Faz a imagem cobrir toda a tela */
     background-position: center; /* Alinha a imagem ao centro da tela */
     background-repeat: no-repeat; /* Impede que a imagem se repita */
     color: white;
